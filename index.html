@@ -1,42 +1,255 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio | Home</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Portfolio | ชื่อของฉัน</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
 </head>
+
+
 <body>
-<header>
-<nav class="navbar">
-<div class="logo">
-💜 My Portfolio
-</div>
-<ul>
-<li><a href="index.html">หน้าหลัก</a></li>
-<li><a href="about.html">ประวัติส่วนตัว</a></li>
-<li><a href="education.html">การศึกษา</a></li>
-<li><a href="projects.html">ผลงาน</a></li>
-<li><a href="contact.html">ติดต่อ</a></li>
-</ul>
-</nav>
+
+
+<!-- ==========================
+     NAVBAR
+=========================== -->
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+            My<span>Portfolio</span>
+        </a>
+
+        <ul class="nav-menu">
+
+            <li>
+                <a href="index.html" class="active">
+                    หน้าหลัก
+                </a>
+            </li>
+
+            <li>
+                <a href="profile.html">
+                    ประวัติส่วนตัว
+                </a>
+            </li>
+
+            <li>
+                <a href="education.html">
+                    ประวัติการศึกษา
+                </a>
+            </li>
+
+            <li>
+                <a href="activities.html">
+                    ผลงาน
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    ติดต่อ
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
 </header>
+
+
+<!-- ==========================
+     HERO
+=========================== -->
+
+<main>
+
 <section class="hero">
-<img src="images/profile.jpg" class="profile">
-<h2>สวัสดีค่ะ ชื่อ นางสาว ธันยกานต์ บุญชู</h2>
-<p>
-นักเรียนระดับชั้นมัธยมศึกษาปีที่6/6 
-</p>
-<a href="about.html" class="button">
-รู้จักฉันเพิ่มเติม
-</a>
+
+    <div class="container hero-container">
+
+
+        <!-- TEXT -->
+
+        <div class="hero-text">
+
+            <p class="hero-subtitle">
+                ✦ WELCOME TO MY PORTFOLIO
+            </p>
+
+            <h1 class="hero-title">
+
+                สวัสดีค่ะ 👋
+                <br>
+
+                ฉันชื่อ
+                <span>ชื่อของฉัน</span>
+
+            </h1>
+
+            <p class="hero-description">
+
+                นักเรียนระดับชั้นมัธยมศึกษาปีที่ 6
+                ผู้มีความสนใจในการเรียนรู้ พัฒนาตนเอง
+                และสร้างสรรค์ผลงานที่สะท้อนถึงความสามารถ
+                และประสบการณ์ของตนเอง
+
+            </p>
+
+
+            <div>
+
+                <a
+                    href="profile.html"
+                    class="btn"
+                >
+                    รู้จักฉันมากขึ้น →
+                </a>
+
+
+                <a
+                    href="activities.html"
+                    class="btn btn-outline"
+                >
+                    ดูผลงาน
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROFILE IMAGE -->
+
+        <div class="hero-image">
+
+            <div class="profile-frame">
+
+                <img
+                    src="images/profile.jpg"
+                    alt="รูปโปรไฟล์"
+                >
+
+            </div>
+
+        </div>
+
+
+    </div>
+
 </section>
+
+
+<!-- ==========================
+     ABOUT PREVIEW
+=========================== -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-label">
+                ABOUT ME
+            </span>
+
+            <h2 class="section-title">
+                ตัวตนของฉัน
+            </h2>
+
+            <p class="section-description">
+
+                Portfolio เล่มนี้รวบรวมประวัติ
+                การศึกษา ความสามารถ ผลงาน
+                และกิจกรรมที่สำคัญของฉัน
+
+            </p>
+
+        </div>
+
+
+        <div class="grid-3">
+
+
+            <div class="card">
+
+                <h3>🎯 เป้าหมาย</h3>
+
+                <p>
+                    มุ่งมั่นพัฒนาตนเองและนำความรู้
+                    ไปต่อยอดในการศึกษาระดับมหาวิทยาลัย
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>💡 ความสนใจ</h3>
+
+                <p>
+                    สนใจการเรียนรู้สิ่งใหม่
+                    การทำงานสร้างสรรค์
+                    และการพัฒนาทักษะของตนเอง
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>🌷 ตัวตน</h3>
+
+                <p>
+                    เป็นคนที่ตั้งใจเรียนรู้
+                    รับผิดชอบ และพร้อมพัฒนาตนเอง
+                    จากประสบการณ์ต่าง ๆ
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- ==========================
+     FOOTER
+=========================== -->
+
 <footer>
-Copyright © 2026
+
+    <p>
+        © 2026 My Portfolio
+        | Designed with ♡
+    </p>
+
 </footer>
-<script src="js/script.js"></script>
+
+
 </body>
+
 </html>
